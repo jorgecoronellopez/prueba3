@@ -11,7 +11,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DATACLOUDER_DEMO_GIT_ACTIONS }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PRUEBA3 }}'
           projectId: prueba3
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
